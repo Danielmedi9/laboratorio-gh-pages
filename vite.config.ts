@@ -4,7 +4,7 @@ import { TanStackRouterVite } from '@tanstack/router-plugin/vite';
 
 export default defineConfig({
   envPrefix: 'PUBLIC_',
-  base: '/laboratorio-gh-pages/',
+  base: './',
   plugins: [
     TanStackRouterVite({
       routesDirectory: 'src/scenes',
